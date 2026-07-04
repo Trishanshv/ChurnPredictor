@@ -10,7 +10,7 @@ This tracker breaks the project into small, incremental, testable features. Each
 
 | Phase | Status | % Complete |
 |---|---|---|
-| Phase 1: Setup | ⬜ | 0% |
+| Phase 1: Setup | 🟨 | 75% |
 | Phase 2: Data & EDA | ⬜ | 0% |
 | Phase 3: Preprocessing | ⬜ | 0% |
 | Phase 4: Modeling | ⬜ | 0% |
@@ -21,10 +21,10 @@ This tracker breaks the project into small, incremental, testable features. Each
 ---
 
 ## Phase 1 — Project Setup
-- [ ] Create project folder structure (`data/`, `notebooks/`, `src/`, `models/`)
-- [ ] Set up virtual environment / install dependencies
-- [ ] Download Telco Customer Churn dataset into `data/`
-- [ ] Create `churn_analysis.ipynb` notebook skeleton
+- [x] Create project folder structure (`data/`, `notebooks/`, `src/`, `models/`)
+- [x] Set up virtual environment / install dependencies
+- [ ] Download Telco Customer Churn dataset into `data/` (public source not reachable in this environment)
+- [x] Create `churn_analysis.ipynb` notebook skeleton
 
 **Depends on:** nothing (first step)
 **Unlocks:** Phase 2
@@ -112,6 +112,7 @@ This tracker breaks the project into small, incremental, testable features. Each
 | Date | Change | By |
 |---|---|---|
 | _(fill in)_ | Project initialized, README + Tracker created | — |
+| 2026-07-05 | Added project scaffold, notebook skeleton, requirements list, and project-specific ignore rules | Copilot |
 
 ---
 
