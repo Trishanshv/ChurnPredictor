@@ -13,8 +13,8 @@ This tracker breaks the project into small, incremental, testable features. Each
 | Phase 1: Setup | ✅ | 100% |
 | Phase 2: Data & EDA | ✅ | 100% |
 | Phase 3: Preprocessing | ✅ | 100% |
-| Phase 4: Modeling | ⬜ | 0% |
-| Phase 5: Evaluation | ⬜ | 0% |
+| Phase 4: Modeling | ✅ | 100% |
+| Phase 5: Evaluation | ✅ | 100% |
 | Phase 6: Insights & Wrap-up | ⬜ | 0% |
 | Phase 7 (Optional): Deployment | ⬜ | 0% |
 
@@ -60,10 +60,10 @@ This tracker breaks the project into small, incremental, testable features. Each
 ---
 
 ## Phase 4 — Model Building
-- [ ] Train Logistic Regression (baseline model)
-- [ ] Train Random Forest Classifier
-- [ ] Train XGBoost Classifier
-- [ ] Save each trained model temporarily for comparison
+- [x] Train Logistic Regression (baseline model)
+- [x] Train Random Forest Classifier
+- [x] Train XGBoost Classifier
+- [x] Save each trained model temporarily for comparison
 
 **Depends on:** Phase 3
 **Unlocks:** Phase 5
@@ -72,11 +72,11 @@ This tracker breaks the project into small, incremental, testable features. Each
 ---
 
 ## Phase 5 — Model Evaluation
-- [ ] Generate confusion matrix for each model
-- [ ] Calculate Accuracy, Precision, Recall, F1-score for each model
-- [ ] Calculate & plot ROC-AUC curve for each model
-- [ ] Build comparison table of all 3 models side-by-side
-- [ ] Select best-performing model (based primarily on Recall + ROC-AUC)
+- [x] Generate confusion matrix for each model
+- [x] Calculate Accuracy, Precision, Recall, F1-score for each model
+- [x] Calculate & plot ROC-AUC curve for each model
+- [x] Build comparison table of all 3 models side-by-side
+- [x] Select best-performing model (based primarily on Recall + ROC-AUC)
 
 **Depends on:** Phase 4
 **Unlocks:** Phase 6
