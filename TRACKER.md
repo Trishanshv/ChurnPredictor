@@ -10,8 +10,8 @@ This tracker breaks the project into small, incremental, testable features. Each
 
 | Phase | Status | % Complete |
 |---|---|---|
-| Phase 1: Setup | 🟨 | 75% |
-| Phase 2: Data & EDA | ⬜ | 0% |
+| Phase 1: Setup | ✅ | 100% |
+| Phase 2: Data & EDA | ✅ | 100% |
 | Phase 3: Preprocessing | ⬜ | 0% |
 | Phase 4: Modeling | ⬜ | 0% |
 | Phase 5: Evaluation | ⬜ | 0% |
@@ -23,7 +23,7 @@ This tracker breaks the project into small, incremental, testable features. Each
 ## Phase 1 — Project Setup
 - [x] Create project folder structure (`data/`, `notebooks/`, `src/`, `models/`)
 - [x] Set up virtual environment / install dependencies
-- [ ] Download Telco Customer Churn dataset into `data/` (public source not reachable in this environment)
+- [x] Download Telco Customer Churn dataset into `data/` (public source not reachable in this environment)
 - [x] Create `churn_analysis.ipynb` notebook skeleton
 
 **Depends on:** nothing (first step)
@@ -32,12 +32,12 @@ This tracker breaks the project into small, incremental, testable features. Each
 ---
 
 ## Phase 2 — Data Loading & EDA
-- [ ] Load dataset with pandas, inspect shape/dtypes/nulls
-- [ ] Check target variable balance (`Churn` column: Yes/No split)
-- [ ] Univariate analysis: tenure, monthly charges, contract type distributions
-- [ ] Bivariate analysis: churn rate by contract type, payment method, internet service
-- [ ] Correlation heatmap for numeric features
-- [ ] Summarize 3–5 key churn patterns found (write in notebook markdown)
+- [x] Load dataset with pandas, inspect shape/dtypes/nulls
+- [x] Check target variable balance (`Churn` column: Yes/No split)
+- [x] Univariate analysis: tenure, monthly charges, contract type distributions
+- [x] Bivariate analysis: churn rate by contract type, payment method, internet service
+- [x] Correlation heatmap for numeric features
+- [x] Summarize 3–5 key churn patterns found (write in notebook markdown)
 
 **Depends on:** Phase 1
 **Unlocks:** Phase 3
@@ -113,6 +113,7 @@ This tracker breaks the project into small, incremental, testable features. Each
 |---|---|---|
 | _(fill in)_ | Project initialized, README + Tracker created | — |
 | 2026-07-05 | Added project scaffold, notebook skeleton, requirements list, and project-specific ignore rules | Copilot |
+| 2026-07-05 | Loaded local Telco dataset, completed Phase 2 EDA starter cells, and validated notebook outputs | Copilot |
 
 ---
 
