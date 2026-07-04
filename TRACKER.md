@@ -12,7 +12,7 @@ This tracker breaks the project into small, incremental, testable features. Each
 |---|---|---|
 | Phase 1: Setup | ✅ | 100% |
 | Phase 2: Data & EDA | ✅ | 100% |
-| Phase 3: Preprocessing | ⬜ | 0% |
+| Phase 3: Preprocessing | ✅ | 100% |
 | Phase 4: Modeling | ⬜ | 0% |
 | Phase 5: Evaluation | ⬜ | 0% |
 | Phase 6: Insights & Wrap-up | ⬜ | 0% |
@@ -46,12 +46,12 @@ This tracker breaks the project into small, incremental, testable features. Each
 ---
 
 ## Phase 3 — Data Preprocessing / Feature Engineering
-- [ ] Drop irrelevant columns (e.g. `customerID`)
-- [ ] Handle missing values (e.g. blank `TotalCharges`)
-- [ ] Encode categorical variables (Label Encoding / One-Hot Encoding)
-- [ ] Scale numeric features (StandardScaler)
-- [ ] Split data into train/test sets (e.g. 80/20, stratified)
-- [ ] Apply SMOTE (or `class_weight='balanced'`) to handle class imbalance
+- [x] Drop irrelevant columns (e.g. `customerID`)
+- [x] Handle missing values (e.g. blank `TotalCharges`)
+- [x] Encode categorical variables (Label Encoding / One-Hot Encoding)
+- [x] Scale numeric features (StandardScaler)
+- [x] Split data into train/test sets (e.g. 80/20, stratified)
+- [x] Apply SMOTE (or `class_weight='balanced'`) to handle class imbalance
 
 **Depends on:** Phase 2
 **Unlocks:** Phase 4
@@ -108,14 +108,6 @@ This tracker breaks the project into small, incremental, testable features. Each
 
 ---
 
-## Change Log
-| Date | Change | By |
-|---|---|---|
-| _(fill in)_ | Project initialized, README + Tracker created | — |
-| 2026-07-05 | Added project scaffold, notebook skeleton, requirements list, and project-specific ignore rules | Copilot |
-| 2026-07-05 | Loaded local Telco dataset, completed Phase 2 EDA starter cells, and validated notebook outputs | Copilot |
-
----
 
 ## Notes for future contributors (human or AI)
 - Always update the checkbox **and** the Progress Snapshot % when a task is completed.
