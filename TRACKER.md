@@ -15,7 +15,7 @@ This tracker breaks the project into small, incremental, testable features. Each
 | Phase 3: Preprocessing | ✅ | 100% |
 | Phase 4: Modeling | ✅ | 100% |
 | Phase 5: Evaluation | ✅ | 100% |
-| Phase 6: Insights & Wrap-up | ⬜ | 0% |
+| Phase 6: Insights & Wrap-up | ✅ | 100% |
 | Phase 7 (Optional): Deployment | ⬜ | 0% |
 
 ---
@@ -85,11 +85,11 @@ This tracker breaks the project into small, incremental, testable features. Each
 ---
 
 ## Phase 6 — Insights & Wrap-up
-- [ ] Extract feature importance from best model (RF/XGBoost)
-- [ ] Translate top features into plain-English business insights
+- [x] Extract feature importance from best model (RF/XGBoost)
+- [x] Translate top features into plain-English business insights
       (e.g. "Customers on month-to-month contracts are X% more likely to churn")
-- [ ] Write final summary section in notebook / README
-- [ ] Export best model using `joblib`
+- [x] Write final summary section in notebook / README
+- [x] Export best model using `joblib`
 
 **Depends on:** Phase 5
 **Unlocks:** Phase 7 (optional) or Project Complete
